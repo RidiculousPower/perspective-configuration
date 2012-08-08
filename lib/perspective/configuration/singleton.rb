@@ -1,5 +1,5 @@
 
-module ::Magnets::Configuration::Singleton
+module ::Perspective::Configuration::Singleton
   
   ###################
   #  configuration  #
@@ -7,7 +7,7 @@ module ::Magnets::Configuration::Singleton
   
   def configuration
     
-    return ::Magnets::Configuration
+    return ::Perspective::Configuration
     
   end
   

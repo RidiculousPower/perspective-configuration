@@ -10,7 +10,7 @@ require_relative './requires.rb'
 # post-require setup
 require_relative './setup.rb'
 
-module ::Magnets::Configuration
+module ::Perspective::Configuration
 
   @configuration_modules = { }
 

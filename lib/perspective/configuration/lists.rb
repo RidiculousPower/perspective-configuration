@@ -1,5 +1,5 @@
 
-module ::Magnets::Configuration::Lists
+module ::Perspective::Configuration::Lists
 
   include ::CascadingConfiguration::Setting
 
