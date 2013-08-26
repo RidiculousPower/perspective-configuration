@@ -1,7 +1,8 @@
+# -*- encoding : utf-8 -*-
 
-module ::Perspective::Configuration::Lists
+module ::Perspective::Configuration::GeneralModules::Lists
 
-  include ::CascadingConfiguration::Setting
+  extend ::CascadingConfiguration::Setting
 
   #######################
   #  default_list_size  #

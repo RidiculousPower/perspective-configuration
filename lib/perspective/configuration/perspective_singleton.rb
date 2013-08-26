@@ -1,5 +1,6 @@
+# -*- encoding : utf-8 -*-
 
-module ::Perspective::Configuration::Singleton
+module ::Perspective::Configuration::PerspectiveSingleton
   
   ###################
   #  configuration  #

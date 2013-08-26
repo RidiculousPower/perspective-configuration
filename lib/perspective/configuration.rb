@@ -1,14 +1,10 @@
-
-begin ; require 'development' ; rescue ::LoadError ; end
+# -*- encoding : utf-8 -*-
 
 # namespaces that have to be declared ahead of time for proper load order
 require_relative './namespaces'
 
 # source file requires
 require_relative './requires.rb'
-
-# post-require setup
-require_relative './setup.rb'
 
 module ::Perspective::Configuration
 
@@ -74,3 +70,6 @@ module ::Perspective::Configuration
   end
   
 end
+
+# post-require setup
+require_relative './setup.rb'

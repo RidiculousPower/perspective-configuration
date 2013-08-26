@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 
 require_relative '../../lib/perspective/configuration.rb'
 
@@ -7,7 +8,7 @@ describe ::Perspective::Configuration do
   #  register_configuration  #
   ############################
 
-  it 'can register configuration settings domains and singleton modules that control them and can be extended by other modules' do
+  it 'will register configuration settings domains and singleton modules that control them and can be extended by other modules' do
     
     module ExtendingModule
       
